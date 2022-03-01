@@ -155,6 +155,62 @@
     
     
     <article
+  id="post-hexo博客写作指南"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2022/03/01/hexo%E5%8D%9A%E5%AE%A2%E5%86%99%E4%BD%9C%E6%8C%87%E5%8D%97/"
+    >hexo博客写作指南</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2022/03/01/hexo%E5%8D%9A%E5%AE%A2%E5%86%99%E4%BD%9C%E6%8C%87%E5%8D%97/" class="article-date">
+  <time datetime="2022-03-01T13:17:43.000Z" itemprop="datePublished">2022-03-01</time>
+</a>    
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h1 id="hexo博客写作指南"><a href="#hexo博客写作指南" class="headerlink" title="hexo博客写作指南"></a>hexo博客写作指南</h1><h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><p>见hexo<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/setup">官方文档</a></p>
+<h2 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h2><h3 id="配置文件优先级"><a href="#配置文件优先级" class="headerlink" title="配置文件优先级"></a>配置文件优先级</h3><p>博客文件夹根目录下的_config.yml可以用来修改大部分配置，主题目录下也有该文件，其优先级为：hexo配置文件中的theme_config -&gt; _config.[theme].yml -&gt; 位于主题目录下的 _config.yml。将所有主题配置集中在一处是推荐的做法。</p>
+<h3 id="配置文件内容"><a href="#配置文件内容" class="headerlink" title="配置文件内容"></a>配置文件内容</h3><p>根目录下_config.yml中的theme: XXX，修改该值可以简单地切换主题（需要在博客根目录安装主题）。</p>
+<p>其他的还是看<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/configuration">官方文档</a>好了，或者直接进去看英文都能看得懂的。</p>
+<h2 id="写文章"><a href="#写文章" class="headerlink" title="写文章"></a>写文章</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo n[ew] [layout] &lt;title&gt;</span><br><span class="line"><span class="meta">#</span><span class="bash"> 使用该命令创建一个新的页面</span></span><br></pre></td></tr></table></figure>
+
+<p>创建出的新页面会在source/_posts路径下，md文件即是文章正文</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br><span class="line"><span class="meta">#</span><span class="bash"> 生成静态文件并发布</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 或者可以直接简写为 hexo d -g</span></span><br></pre></td></tr></table></figure>
+
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+    </footer>
+  </div>
+
+    
+ 
+    
+</article>
+
+    
+    <article
   id="post-hello-world"
   class="article article-type-post"
   itemscope
